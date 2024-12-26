@@ -25,13 +25,13 @@ class Profil extends StatelessWidget {
           Text('Home')
         ],),
         SizedBox(width: 30),
-        Column(children: [
-          Icon(Icons.trolley),
+     Column(children: [
+          Icon(Icons.shopping_cart),
           Text('Shop')
         ],),
         SizedBox(width: 30),
         Column(children: [
-          Icon(Icons.shop),
+          Icon(Icons.shopping_bag),
           Text('Bag')
         ],),
         SizedBox(width: 30),
