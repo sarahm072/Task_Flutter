@@ -25,13 +25,13 @@ class Home extends StatelessWidget {
           Text('Home',style:TextStyle(color:  Color.fromARGB(255, 219, 48, 34),))
         ],),
         SizedBox(width: 30),
-        Column(children: [
-          Icon(Icons.trolley),
+          Column(children: [
+          Icon(Icons.shopping_cart),
           Text('Shop')
         ],),
         SizedBox(width: 30),
         Column(children: [
-          Icon(Icons.shop),
+          Icon(Icons.shopping_bag),
           Text('Bag')
         ],),
         SizedBox(width: 30),
