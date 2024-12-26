@@ -17,18 +17,18 @@ class Favorite extends StatelessWidget {
       body: const Center( 
          child: Row(
           children: [ 
-            //  MaterialButton(onPressed: () {},
-            //   color: Color.fromARGB(255, 0, 0, 0),
-            //  child: Text('Summer',style:TextStyle(color: Color(0xfffffffff))),
-            //  ),
-            //  SizedBox(width: 10),
-            //  MaterialButton(onPressed: () {},
-            //   color: Color.fromARGB(255, 0, 0, 0),
-            //  child: Text('T-Shirt',style:TextStyle(color: Color(0xfffffffff)))),
-            //  SizedBox(width: 10),
-            //  MaterialButton(onPressed: () {},
-            //   color: Color.fromARGB(255, 0, 0, 0),
-            //  child: Text('Shirts',style:TextStyle(color: Color(0xfffffffff)))),
+             MaterialButton(onPressed: () {},
+              color: Color.fromARGB(255, 0, 0, 0),
+             child: Text('Summer',style:TextStyle(color: Color(0xfffffffff))),
+             ),
+             SizedBox(width: 10),
+             MaterialButton(onPressed: () {},
+              color: Color.fromARGB(255, 0, 0, 0),
+             child: Text('T-Shirt',style:TextStyle(color: Color(0xfffffffff)))),
+             SizedBox(width: 10),
+             MaterialButton(onPressed: () {},
+              color: Color.fromARGB(255, 0, 0, 0),
+             child: Text('Shirts',style:TextStyle(color: Color(0xfffffffff)))),
              
           ],
 
@@ -42,13 +42,13 @@ class Favorite extends StatelessWidget {
           Text('Home')
         ],),
         SizedBox(width: 30),
-        Column(children: [
-          Icon(Icons.trolley),
+         Column(children: [
+          Icon(Icons.shopping_cart),
           Text('Shop')
         ],),
         SizedBox(width: 30),
         Column(children: [
-          Icon(Icons.shop),
+          Icon(Icons.shopping_bag),
           Text('Bag')
         ],),
         SizedBox(width: 30),
